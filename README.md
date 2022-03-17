@@ -1,6 +1,6 @@
 [![Python](https://img.shields.io/badge/python-3.9.7-brightgreen?style=plastic&logo=python)](https://www.python.org/)
-[![VCF](https://img.shields.io/badge/VCF-v4.1-brightgreen)]
-[![Human Reference](https://img.shields.io/badge/Human%20Reference-GRCh37-blue)]
+![VCF](https://img.shields.io/badge/VCF-v4.1-brightgreen)
+![Human Reference](https://img.shields.io/badge/Human%20Reference-GRCh37-blue)
 [![nsembl RestAPI Release](https://img.shields.io/badge/Ensembl--RestAPI%20Release-105-blue)](https://github.com/Ensembl/ensembl-rest#ensembl-rest)
 # VCF_Annotation
 
