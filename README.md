@@ -12,7 +12,7 @@ This tool use only basic module on Python3.(requests, sys, re, json)
 
 ### Run commend
 ```
-./Anno.py [input_vcf] [output_vcf]
+./anno.py [input_vcf] [output_vcf]
 ex) python anno.py clean_challenge.vcf clean_challenge_anno.vcf
 ```
 
