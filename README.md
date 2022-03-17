@@ -11,10 +11,10 @@ The VCF annotation tool is used to make additional annotations from basic VCF.
 This tool use only basic module on Python3.(requests, sys, re, json)
 
 ### Run commend
-'''
+```
 ./Anno.py [input_vcf] [output_vcf]
 ex) python anno.py clean_challenge.vcf clean_challenge_anno.vcf
-'''
+```
 
 ###Aditional Annotation columns
 1. Type: variant types, such as substitution, deletion, duplication, insertion, inversion, deletion-insertion, complex, other
