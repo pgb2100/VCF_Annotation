@@ -18,9 +18,9 @@ def vcf_anno(input, output):
         vcf_lines = map(lambda z:z.strip(), f.readlines())
     for i in vcf_lines:
         if i.startswith("#CHROM"):
-            outout_file.write(i + "\t" + "Type" + "\t" + "Depth" + "\t" + "Percentage_ALT" + "\t" + "Gene_ID" + "\t" + "Transcript_ID")
+            outout_file.write(i + "\t" + "Type" + "\t" + "Depth" + "\t" + "Percentage_ALT" + "\t" + "Gene_ID" + "\t" + "Transcript_ID" + "\n")
         elif i.startswith("#"):
-            outout_file.write(i)
+            outout_file.write(i + "\n")
         else:
             line_split = re.split(r'[\s:;]',i)
             v_type = re.sub(r'TYPE=','',line_split[12])
